@@ -125,7 +125,27 @@
 			<artifactId>h2</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-form-engine</artifactId>
+			<version>6.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-form-engine-configurator</artifactId>
+			<version>6.0.0</version>
+        </dependency>
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-dmn-engine</artifactId>
+			<version>6.0.0</version>
+		</dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-dmn-engine-configurator</artifactId>
+			<version>6.0.0</version>
+        </dependency>
+    </dependencies>
 
 	<profiles>
 		<profile>

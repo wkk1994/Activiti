@@ -1,0 +1,18 @@
+server:
+  port: 9999
+  servlet:
+    context-path: "/activiti-app"
+spring:
+  jpa:
+    properties:
+      hibernate:
+        cache:
+          use_second_level_cache: false
+    open-in-view: true # 懒加载配置
+    generate-ddl: true #自动建表配置
+  liquibase:
+    enabled: false #备份数据库配置关闭
+  activiti:
+    check-process-definitions: false  #不检查activiti自动部署目录
+  aop:
+    proxy-target-class: false  # 修改默认aop代理不为cglib
